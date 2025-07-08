@@ -1,4 +1,5 @@
 import React , {Component} from "react";
+import UpdatedComponent from './HigherOrder';
 
 export class Click extends Component 
 {
@@ -20,10 +21,11 @@ export class Click extends Component
             <div>
                 <h1>Click Component: High order Component</h1>
                 <button onClick={this.UpdateClick}>Click Me!</button>
-                <p>You have clicked {count} times</p>
+                <p>{this.props.name} have clicked {count} times</p>
+                <p> click imports component from higherOrder.js and uses its variable </p>
            </div>
         );
     }
 }
 
-export default Click;
+export default UpdatedComponent(Click);

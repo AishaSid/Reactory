@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import UpdatedComponent from './HigherOrder';
 
 export class Counter extends Component {
  
@@ -17,10 +18,11 @@ export class Counter extends Component {
     return (
       <div>
         <button onMouseEnter={this.IncrementClick}>Increment</button>
-      <p>Count: {count} </p>
+      <p>{this.props.name} Count: {count} </p>
+      <p>It is also exported differently ( as a param in HR comp) </p>
       </div>
     )
   }
 }
 
-export default Counter
+export default UpdatedComponent(Counter)
