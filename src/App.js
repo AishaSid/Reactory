@@ -1,9 +1,21 @@
-import React, {useState , useRef , useEffect} from 'react';
-import { v4 as uuidv4 } from 'uuid';
-
+import React from 'react';
+import FC from './FunctionalComp';
+import CC from './ClassComp';
+import { ClassComp1 } from './ClassComp'; 
+import Click from './Click';
+import Counter from './Counter';
 
 function App() {
-  return <h1>Welcome to the React App</h1>;
+  return <div>
+    <h1>Welcome to the React Components</h1>
+  <p>Components return HTML</p>
+  <FC></FC>
+  <CC></CC>
+  <ClassComp1></ClassComp1>
+  <Click></Click>
+  <Counter></Counter>
+  </div>
+  ;
 }
 
 export default App;
