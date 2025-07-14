@@ -21,3 +21,27 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# dependencies
+ReactComponents/node_modules/
+ReactComponents/.pnp
+ReactComponents/.pnp.js
+
+# testing
+ReactComponents/coverage/
+
+# production
+ReactComponents/build/
+
+# misc
+ReactComponents/.DS_Store
+ReactComponents/.env.local
+ReactComponents/.env.development.local
+ReactComponents/.env.test.local
+ReactComponents/.env.production.local
+
+ReactComponents/npm-debug.log*
+ReactComponents/yarn-debug.log*
+ReactComponents/yarn-error.log*
+
