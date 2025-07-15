@@ -71,3 +71,25 @@ portfolio/npm-debug.log*
 portfolio/yarn-debug.log*
 portfolio/yarn-error.log*
 
+
+# dependencies
+instagram-clone/node_modules/
+instagram-clone/.pnp
+instagram-clone/.pnp.js
+
+# testing
+instagram-clone/coverage/
+
+# production
+instagram-clone/build/
+
+# misc
+instagram-clone/.DS_Store
+instagram-clone/.env.local
+instagram-clone/.env.development.local
+instagram-clone/.env.test.local
+instagram-clone/.env.production.local
+
+instagram-clone/npm-debug.log*
+instagram-clone/yarn-debug.log*
+instagram-clone/yarn-error.log*
