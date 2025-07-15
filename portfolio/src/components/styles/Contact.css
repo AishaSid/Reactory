@@ -1,0 +1,47 @@
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+.inputs{
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding-left: 10px;
+}
+
+h1{
+    color: rgb(82, 76,76);
+
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding: 20px;
+    align-items: center;
+}
+.message{
+    padding: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background: none    ;
+    cursor: pointer;
+   
+}

@@ -11,6 +11,9 @@
 # production
 /build
 
+package.json
+package-lock.json
+
 # misc
 .DS_Store
 .env.local
@@ -44,4 +47,27 @@ ReactComponents/.env.production.local
 ReactComponents/npm-debug.log*
 ReactComponents/yarn-debug.log*
 ReactComponents/yarn-error.log*
+
+
+# dependencies
+portfolio/node_modules/
+portfolio/.pnp
+portfolio/.pnp.js
+
+# testing
+portfolio/coverage/
+
+# production
+portfolio/build/
+
+# misc
+portfolio/.DS_Store
+portfolio/.env.local
+portfolio/.env.development.local
+portfolio/.env.test.local
+portfolio/.env.production.local
+
+portfolio/npm-debug.log*
+portfolio/yarn-debug.log*
+portfolio/yarn-error.log*
 
