@@ -5,10 +5,20 @@
     border: 1px solid #dbdddb;
     margin-top: 25px;
     display: flex;
+  justify-content: center;
+  align-items: center;
     overflow-x: scroll;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .statusbar__container::-webkit-scrollbar {
-    display: none;
+   display: none;
 }
 
 .statusbar__status {
